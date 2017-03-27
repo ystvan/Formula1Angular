@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SimpleHttpServiceComponent } from './simple-http-service/simple-http-service.component';
 
 @Component({
   selector: 'app-root',

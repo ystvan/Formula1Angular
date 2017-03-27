@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { SimpleHttpServiceComponent } from './simple-http-service/simple-http-service.component';
 
 @NgModule({
+  
   declarations: [
     AppComponent,
     SimpleHttpServiceComponent
