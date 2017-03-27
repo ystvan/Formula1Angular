@@ -14,7 +14,7 @@ export class SimpleHttpServiceComponent implements OnInit {
   constructor(private service: F1SimpleServiceService) { 
     service
       .getDrivers()
-      .subscribe(response => this.drivers = response.json().MRData.DriverTable.Drivers);
+      .subscribe(response => this.drivers = response);
   }
 
   ngOnInit() {
